@@ -1,0 +1,11 @@
+digraph 
+  {
+    node [ style = filled, colorscheme = set24 ];
+    "A"                  [ fillcolor = 1        ];
+    "B"                  [ fillcolor = 2        ];
+    "C"                  [ fillcolor = 3        ];
+    "D"                  [ fillcolor = 4        ];
+    "A" -> "B";
+    "B" -> "C";
+    "C" -> "D";
+  }

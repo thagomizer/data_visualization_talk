@@ -1,0 +1,4 @@
+digraph 
+  {
+    "B"                  [ label = "Hello"      ];
+  }

@@ -1,0 +1,7 @@
+digraph 
+  {
+    node [ color = red ];
+    edge [ color = blue ];
+    "A" -> "B";
+    "B" -> "C";
+  }

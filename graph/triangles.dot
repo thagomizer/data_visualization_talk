@@ -1,0 +1,7 @@
+digraph 
+  {
+    node [ shape = triangle ];
+    "A" -> "B";
+    "B" -> "C";
+    "C" -> "A";
+  }

@@ -1,0 +1,11 @@
+digraph 
+  {
+    node [ style = filled ];
+    "G"                  [ color = green        ];
+    "O"                  [ color = orange       ];
+    "R"                  [ color = red          ];
+    "P"                  [ color = purple       ];
+    "G" -> "O";
+    "O" -> "R";
+    "R" -> "P";
+  }

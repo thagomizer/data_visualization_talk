@@ -1,0 +1,8 @@
+digraph 
+  {
+    "A"                  [ shape = triangle     ];
+    "B"                  [ shape = circle       ];
+    "C"                  [ shape = diamond      ];
+    "A" -> "B";
+    "B" -> "C";
+  }
