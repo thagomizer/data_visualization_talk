@@ -1,0 +1,21 @@
+<html>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script>
+$(function () {
+  $('#chart').highcharts({
+    chart : { 
+      type: 'pie'
+    },
+    title: {
+      text: 'Editors At Seattle.rb'
+    },
+    series: [{
+      name: "Editors",
+      data: [["Emacs", 10],["vim", 5], ["other", 3]]
+    }]
+  });
+});
+</script>
+<script src="http://code.highcharts.com/highcharts.js"></script>
+<div id="chart"/>
+</html>
