@@ -43,8 +43,8 @@ digraph do
     end
   end
 
-  # orphans = nodes.map { |_, n| n.orphan? ? n.name : nil}
-  # orphans.each { |name| remove_node(name) }
+  orphans = nodes.map { |_, n| n.orphan? ? n.name : nil}
+  orphans.each { |name| delete_node(name) }
 
   save "hmc_cs", "png"
 end
