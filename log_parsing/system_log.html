@@ -1,0 +1,38 @@
+  <html>
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+  <script src="http://code.highcharts.com/highcharts.js"></script>
+  <script>
+  $(function () {
+    $('#my-chart').highcharts({
+      chart: {
+        type: 'column'
+      },
+      title: {
+        text: "SysLog"
+      },
+      legend: {
+        enabled: false
+      },
+      yAxis: {
+        type: 'logarithmic',
+        title: ''
+      },
+      xAxis: {
+        categories: ["kernel","configd","galileod","com.apple.time","UserEventAgent","coreaudiod","airportd","hidd","Safari","WindowServer"],
+        labels: {
+          style: {
+            font: '16px Helvetica',
+          },
+          rotation: -45,
+          align: 'right'
+        }
+      },
+      series: [{
+        data: [489,69,50,45,26,24,23,22,16,16]
+      }]
+    });
+  });
+  </script>
+
+  <div id="my-chart"/>
+  </html>
